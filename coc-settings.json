@@ -1,0 +1,98 @@
+{
+  "coc.preferences.formatOnSaveFiletypes": [
+    "css",
+    "markdown",
+    "html",
+    "javascript",
+    "javascriptreact",
+    "json",
+    "graphql",
+    "markdown",
+    "typescript",
+    "typescriptreact",
+    "rust",
+    "ruby",
+    "go",
+    "yaml"
+  ],
+  "diagnostic.errorSign": "☠️'",
+  "diagnostic.hintSign": "💡",
+  "diagnostic.infoSign": "ℹ️",
+  "diagnostic.warningSign": "⚠️'",
+  "eslint.autoFixOnSave": true,
+  "eslint.filetypes": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "html.format.templating": true,
+  "go.goplsOptions": {
+    "staticcheck": true
+  },
+  "languageserver": {
+    "golang": {
+      "command": "gopls",
+      "rootPatterns": ["go.mod"],
+      "filetypes": ["go"]
+    },
+    "tailwind-lsp": {
+      "command": "tailwindcss-language-server",
+      "args": ["--stdio"],
+      "filetypes": [
+        "css",
+        "html",
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact"
+      ],
+      "rootPatterns": [
+        "tailwind.config.js",
+        "package.json",
+        "node_modules",
+        ".git"
+      ],
+      "settings": {
+        "tailwindCSS": {
+          "classAttributes": ["class", "className", "classNameList"]
+        }
+      }
+    }
+  },
+  "list.indicator": "👽",
+  "list.insertMappings": {
+    "<C-t>": "action:tabe",
+    "<C-v>": "action:vsplit",
+    "<C-h>": "action:split",
+    "<C-c>": "do:exit"
+  },
+  "list.normalMappings": {
+    "<C-t>": "action:tabe",
+    "<C-v>": "action:vsplit",
+    "<C-h>": "action:split",
+    "<C-c>": "do:exit"
+  },
+  "list.source.files.excludePatterns": ["**/vendor/**"],
+  "list.source.grep.excludePatterns": ["**/vendor/**"],
+  "npm.binPath": "yarn",
+  "prettier.disableSuccessMessage": true,
+  "prettier.semi": false,
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "all",
+  "rust-analyzer.diagnostics.disabled": [
+    "unresolved-macro-call",
+    "unresolved-proc-macro"
+  ],
+  "rust-analyzer.procMacro.enable": false,
+  "suggest.enablePreview": true,
+  "tslint.jsEnable": true,
+  "tslint.autoFixOnSave": true,
+  "solargraph.diagnostics": true,
+  "solargraph.enable": true,
+  "solargraph.autoformat": true,
+  "solargraph.formatting": true,
+  "solargraph.hover": true,
+  "solargraph.useBundler": true,
+  "Lua.telemetry.enable": true
+}

@@ -1,0 +1,23 @@
+[github]
+  user = "justin-holmes"
+  email = "justin.ryan.holmes@icloud.com"
+[alias]
+  co = checkout
+[branch]
+  autosetupmerge = always
+  autosetuprebase = always
+[color]
+  ui = auto
+[core]
+  trustctime = false
+  excludesfile = ~/.gitignore_global
+[fetch]
+  prune = true
+[merge]
+  ff = only
+[push]
+  default = current
+[rebase]
+  autosquash = true
+[rerere]
+  enabled = 1
