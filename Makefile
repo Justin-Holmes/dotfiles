@@ -52,6 +52,6 @@ update:
 	brew doctor
 	@printf "%s----\n"
 	npm update -g $(npms)
-	@printf "%sUpdate vim plugins: :PlugUpgrade, :PlugUpdate, :CocRebuild, :CocUpdate\n"
+	@printf "%sUpdate vim plugins: :PlugUpgrade, :PlugUpdate, :CocUpdate\n"
 
 .PHONY: help install uninstall update
