@@ -1,6 +1,6 @@
 brews = git ripgrep node
 casks = insomnia rowanj-gitx rectangle
-cocs = coc-css coc-eslint coc-html coc-json coc-go coc-lists coc-prettier coc-tsserver coc-prettier coc-tslint-plugin coc-sumneko-lua coc-solargraph coc-rust-analyzer
+cocs = coc-css coc-eslint coc-html coc-json coc-go coc-lists coc-prettier coc-tsserver coc-prettier coc-tslint-plugin coc-sumneko-lua coc-solargraph coc-rust-analyzer coc-yaml
 npms = @tailwindcss/language-server
 dots = gitconfig vimrc zshrc
 tmps = tmp/yankring
